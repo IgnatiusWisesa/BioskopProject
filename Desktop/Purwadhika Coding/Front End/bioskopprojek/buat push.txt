@@ -1,0 +1,163 @@
+Microsoft Windows [Version 10.0.18362.535]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Asus Tuf\Desktop\Purwadhika Coding\Front End\bioskopprojek>git remote add origin https://github.com/IgnatiusWisesa/BioskopProject.git
+
+C:\Users\Asus Tuf\Desktop\Purwadhika Coding\Front End\bioskopprojek>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\Asus Tuf\Desktop\Purwadhika Coding\Front End\bioskopprojek>git add .
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopfakeapi/buat.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopfakeapi/db.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/db.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/public/manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/public/robots.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/App.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/App.test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/index.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/logo.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/serviceWorker.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/setupTests.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/public/manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/public/robots.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/App.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/App.test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/index.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/logo.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/serviceWorker.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/setupTests.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Desktop/Purwadhika Coding/Front End/bioskopprojek/db.json.
+The file will have its original line endings in your working directory
+
+C:\Users\Asus Tuf\Desktop\Purwadhika Coding\Front End\bioskopprojek>git commit -m SebelumUjian
+[master (root-commit) 37f0492] SebelumUjian
+ 66 files changed, 33454 insertions(+)
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopfakeapi/buat
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopfakeapi/db.json
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/.gitignore
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/PR.txt
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/README.md
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/db.json
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/package-lock.json
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/package.json
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/public/favicon.ico
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/public/index.html
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/public/logo192.png
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/public/logo512.png
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/public/manifest.json
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/public/robots.txt
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/App.css
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/App.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/App.test.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/components/header.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/index.css
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/index.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/logo.svg
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/belitiket.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/cart.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/gantipass.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/history.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/home.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/login.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/logout.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/manageadmin.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/managestudio.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/moviedetail.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/page404.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/pages/register.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/redux/actions/Authactions.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/redux/actions/CartActions.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/redux/actions/Notifactions.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/redux/actions/index.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/redux/reducers/Authreducers.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/redux/reducers/CartReducers.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/redux/reducers/Notifreducers.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/redux/reducers/index.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/serviceWorker.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/setupTests.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/bioskopui/src/support/ApiURL.jsx
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/.gitignore
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/README.md
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/package-lock.json
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/package.json
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/public/favicon.ico
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/public/index.html
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/public/logo192.png
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/public/logo512.png
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/public/manifest.json
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/public/robots.txt
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/App.css
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/App.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/App.test.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/index.css
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/index.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/logo.svg
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/serviceWorker.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/coba/src/setupTests.js
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/db.json
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/dbupdate.txt
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/fitur pr.txt
+ create mode 100644 Desktop/Purwadhika Coding/Front End/bioskopprojek/index.html
+
+C:\Users\Asus Tuf\Desktop\Purwadhika Coding\Front End\bioskopprojek>git push origin master
+Enumerating objects: 71, done.
+Counting objects: 100% (71/71), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (64/64), done.
+Writing objects: 100% (71/71), 201.75 KiB | 2.69 MiB/s, done.
+Total 71 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/IgnatiusWisesa/BioskopProject.git
+ * [new branch]      master -> master
+
+C:\Users\Asus Tuf\Desktop\Purwadhika Coding\Front End\bioskopprojek>

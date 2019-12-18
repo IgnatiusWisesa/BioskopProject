@@ -6,6 +6,7 @@ import { url } from '../support/ApiURL';
 import { Modal,ModalBody,ModalFooter,ModalHeader, Button,Spinner } from 'reactstrap'
 import Fade from 'react-reveal/Fade'
 import NotFound from './page404'
+import { connect } from 'react-redux'
 
 class ManageAdmin extends Component {
     state = { 
@@ -18,7 +19,7 @@ class ManageAdmin extends Component {
         editModal: false,
         indexEdit: 0,
         jadwal: [12,14,16,18,20,22],
-        studio: [1,2,3],
+        // studio: [1,2,3],
         genre: [ 'Action', 'Animation', 'Comedy', 'Crime', 'Drama', 'Adventure', 'Fantasy', 'Historical', 'Horror', 'Romance', 'Sci-Fi', 'Thriller', 'Western']
      }
 
@@ -248,9 +249,10 @@ class ManageAdmin extends Component {
     }
 
     renderStudioOption = () =>{
-        return this.state.studio.map((val,index)=>{
+        // console.log(this.state.datastudio[0].nama)
+        return this.state.datastudio.map((val,index)=>{
             return(
-            <option key={index} value={index+1}>Studio {index+1}</option>
+            <option key={index} value={index+1}>{val.nama}</option>
             )
         })
     }
@@ -278,7 +280,8 @@ class ManageAdmin extends Component {
 
     render() {
         // const {datafilm, indexEdit} = this.state
-    if(this.props.Auth.login && this.state.namauser==='admin'){
+        // console.log(this.props.Auth.username)
+    if(this.props.Auth.login && this.props.Auth.username==='admin'){
         if(this.state.datafilm.length === 0){
             console.log('Ini loading!')
             return(
@@ -423,5 +426,11 @@ class ManageAdmin extends Component {
         
     }
 }
+
+const MapstateToprops = state => {
+    return {
+      Auth: state.Auth
+    };
+  };
  
-export default ManageAdmin;
+export default connect(MapstateToprops)(ManageAdmin) ;
