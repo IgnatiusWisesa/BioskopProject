@@ -7,6 +7,7 @@ import { connect } from 'react-redux'
 import { Modal,ModalBody,ModalFooter,ModalHeader, Button,Spinner } from 'reactstrap'
 import { CARTHISTORY } from './../redux/actions'
 import { Redirect } from 'react-router-dom'
+import NotFound from './page404'
 
 class Cart extends Component {
     state = { 
@@ -51,7 +52,7 @@ class Cart extends Component {
                 for(var i=0; i<this.state.datacart.length;i++){
                     totalharga = totalharga + this.state.datacart[i].totalharga
                 }
-                console.log(totalharga)
+                // console.log(totalharga)
 
                 var jumlahnotif=0
                 if(this.state.datacart !== null && this.state.dataakhir){
@@ -60,34 +61,8 @@ class Cart extends Component {
                 else if(this.state.datacart === null && this.state.dataakhir){
                     jumlahnotif=0
                 }
-                
-                var today = new Date();
-                var dd = String(today.getDate()).padStart(2, '0');
-                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-                var yyyy = today.getFullYear();
-                today = dd + '/' + mm + '/' + yyyy;
-
-                // console.log(today)
-                // console.log(totalharga)
-                // console.log(jumlahnotif)
-
-                var obj = {
-                    tanggal: today,
-                    totalharga: totalharga,
-                    jumlahnotif: jumlahnotif,
-                    bayar: false,
-                    item: this.state.datacart
-                }
-
-                // console.log(obj)
-
-                Axios.put(`${url}transactionsDetails/1`, obj)
-                .then((res)=>{
-                    console.log(res.data)
-                    localStorage.setItem('notif',obj.jumlahnotif)
-                }).catch((err)=>{
-                    console.log(err)
-                })
+                console.log(jumlahnotif)
+                localStorage.setItem('notif',jumlahnotif)
 //===========================================axios post baru end=======================================================================================
             })
         }).catch((err)=>{
@@ -96,6 +71,7 @@ class Cart extends Component {
     }
 
     CheckOut =()=>{
+        // console.log(this.state.datacart)
         if(this.state.datacart !== null){
             var title = []
             for(var i=0;i<this.state.datacart.length;i++){
@@ -121,44 +97,46 @@ class Cart extends Component {
             var yyyy = today.getFullYear();
             today = dd + '/' + mm + '/' + yyyy;
 
-            var tanggal = []
-            for(var i=0;i<this.state.datacart.length;i++){
-                tanggal.push(today)
-            }
-            console.log(tanggal)
+            // var tanggal = []
+            // for(var i=0;i<this.state.datacart.length;i++){
+            //     tanggal.push(today)
+            // }
+            // console.log(tanggal)
 
-            Axios.get(`${url}transactionsDetails/1`)
-            .then((res)=>{
-                console.log(res.data)
-                var tanggal = res.data.tanggal
-                var totalharga = res.data.totalharga
-                var jumlahnotif = res.data.jumlahnotif
-                var bayar = true
-                var obj = {
-                tanggal: tanggal,
-                totalharga: totalharga,
-                jumlahnotif: jumlahnotif,
-                bayar: bayar,
-                item: this.state.datacart
-                }
-                // console.log(obj)
-                // Axios.put(`${url}transactions/1`,obj)
-                // .then((res)=>{
-                //     console.log(res.data)
-                //     //delete orders --> belum bisa
-                //     this.setState({datacart: null})
+            //     this.setState({datacart: null})
                 //     localStorage.clear('notif');
-                //     return(
-                //         <Redirect to={'/'} />
-                //     )
-                // }).catch((err)=>{
-                //     console.log(err)
-                // })
-                
 
-            }).catch((err)=>{
-                console.log(err)
-            })
+            var totalharga = []
+            for(var i=0;i<this.state.datacart.length;i++){
+                totalharga.push(this.state.datacart[i].totalharga)
+            }
+            console.log(totalharga)
+
+            var pesanan=this.state.datacart
+            for(var i=0;i<pesanan.length;i++){
+                var data={
+                    userId:pesanan[i].userId,
+                    movieId:pesanan[i].movieId,
+                    jadwal:pesanan[i].jadwal,
+                    // totalHarga:pesanan[i].totalHarga,
+                    tanggal: today,
+                    detail: detail[i].qty,
+                    harga: pesanan[i].totalharga,
+                    bayar:true,
+                    id:pesanan[i].id
+                }
+                var id=data.id
+                // console.log(data)
+                Axios.put(`${url}orders/${id}`,data)
+                .then(res=>{
+                    localStorage.clear('notif')
+                    this.componentDidMount()
+                }).catch(err=>{
+                    console.log(err)
+                })
+            }
+            this.setState({modalcheckout:false})
+
         }
         else if(this.state.datacart === null){
             this.setState({modalCartMasihKosong:true})
@@ -239,7 +217,7 @@ class Cart extends Component {
      }
 
     render() {
-        if(this.props.UserId){
+        if(this.props.UserId && this.props.username!=='admin'){
             return (
                 <div>
                     <Modal isOpen={this.state.modalDetail} toggle={()=>this.setState({modalDetail:false})}>
@@ -304,6 +282,7 @@ class Cart extends Component {
                             <TableRow>
                                 <TableCell></TableCell>
                                 <TableCell></TableCell>
+                                <TableCell></TableCell>
                                 <TableCell>
                                     <Button color="success" onClick={()=>{this.CheckOut()}}>
                                         Check Out & Pay
@@ -319,7 +298,7 @@ class Cart extends Component {
              );
         }
         return (
-            <div>404 not found<br></br>Back to Home</div>
+            <NotFound />
         )
 
     }
@@ -328,7 +307,8 @@ class Cart extends Component {
 const MapstateToprops =(state)=>{
     return{
         AuthLog: state.Auth.login,
-        UserId:state.Auth.id
+        UserId:state.Auth.id,
+        username:state.Auth.username
     }
 }
  

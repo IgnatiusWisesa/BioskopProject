@@ -44,6 +44,11 @@
       "username": "hil",
       "password": "123",
       "id": 9
+    },
+    {
+      "username": "userbaru",
+      "password": "123",
+      "id": 10
     }
   ],
   "studios": [
@@ -91,66 +96,180 @@
     {
       "userId": 6,
       "movieId": 3,
-      "totalharga": 50000,
       "jadwal": 12,
-      "bayar": false,
+      "bayar": true,
       "id": 14
     },
     {
       "userId": 6,
       "movieId": 3,
-      "totalharga": 75000,
       "jadwal": 12,
-      "bayar": false,
+      "bayar": true,
       "id": 15
     },
     {
       "userId": 6,
       "movieId": 8,
-      "totalharga": 100000,
       "jadwal": 12,
-      "bayar": false,
+      "bayar": true,
       "id": 16
     },
     {
       "userId": 8,
       "movieId": 2,
-      "totalharga": 50000,
       "jadwal": 16,
-      "bayar": false,
+      "tanggal": "18/12/2019",
+      "harga": 50000,
+      "bayar": true,
       "id": 17
-    },
-    {
-      "userId": 6,
-      "movieId": 3,
-      "totalharga": 100000,
-      "jadwal": 12,
-      "bayar": false,
-      "id": 18
-    },
-    {
-      "userId": 6,
-      "movieId": 6,
-      "totalharga": 50000,
-      "jadwal": 12,
-      "bayar": false,
-      "id": 19
-    },
-    {
-      "userId": 5,
-      "movieId": 7,
-      "totalharga": 50000,
-      "jadwal": 14,
-      "bayar": false,
-      "id": 20
     },
     {
       "userId": 3,
       "movieId": 3,
-      "totalharga": 75000,
       "jadwal": 12,
-      "bayar": false,
+      "bayar": true,
       "id": 21
+    },
+    {
+      "userId": 10,
+      "movieId": 3,
+      "jadwal": 12,
+      "tanggal": "18/12/2019",
+      "bayar": true,
+      "id": 22
+    },
+    {
+      "userId": 10,
+      "movieId": 7,
+      "jadwal": 12,
+      "tanggal": "18/12/2019",
+      "bayar": true,
+      "id": 23
+    },
+    {
+      "userId": 10,
+      "movieId": 4,
+      "jadwal": 20,
+      "tanggal": "18/12/2019",
+      "bayar": true,
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "movieId": 5,
+      "jadwal": 12,
+      "tanggal": "18/12/2019",
+      "detail": [
+        [
+          {
+            "orderId": 25,
+            "seat": 6,
+            "row": 0,
+            "id": 47
+          },
+          {
+            "orderId": 25,
+            "seat": 7,
+            "row": 0,
+            "id": 48
+          }
+        ],
+        [
+          {
+            "orderId": 26,
+            "seat": 15,
+            "row": 0,
+            "id": 49
+          },
+          {
+            "orderId": 26,
+            "seat": 16,
+            "row": 0,
+            "id": 50
+          },
+          {
+            "orderId": 26,
+            "seat": 17,
+            "row": 0,
+            "id": 51
+          },
+          {
+            "orderId": 26,
+            "seat": 18,
+            "row": 0,
+            "id": 52
+          }
+        ]
+      ],
+      "harga": [
+        50000,
+        100000
+      ],
+      "bayar": true,
+      "id": 25
+    },
+    {
+      "userId": 3,
+      "movieId": 6,
+      "jadwal": 12,
+      "tanggal": "18/12/2019",
+      "detail": [
+        [
+          {
+            "orderId": 25,
+            "seat": 6,
+            "row": 0,
+            "id": 47
+          },
+          {
+            "orderId": 25,
+            "seat": 7,
+            "row": 0,
+            "id": 48
+          }
+        ],
+        [
+          {
+            "orderId": 26,
+            "seat": 15,
+            "row": 0,
+            "id": 49
+          },
+          {
+            "orderId": 26,
+            "seat": 16,
+            "row": 0,
+            "id": 50
+          },
+          {
+            "orderId": 26,
+            "seat": 17,
+            "row": 0,
+            "id": 51
+          },
+          {
+            "orderId": 26,
+            "seat": 18,
+            "row": 0,
+            "id": 52
+          }
+        ]
+      ],
+      "harga": [
+        50000,
+        100000
+      ],
+      "bayar": true,
+      "id": 26
+    },
+    {
+      "userId": 8,
+      "movieId": 8,
+      "jadwal": 12,
+      "tanggal": "18/12/2019",
+      "harga": 100000,
+      "bayar": true,
+      "id": 27
     }
   ],
   "ordersDetails": [
@@ -257,54 +376,6 @@
       "id": 27
     },
     {
-      "orderId": 18,
-      "seat": 15,
-      "row": 3,
-      "id": 28
-    },
-    {
-      "orderId": 18,
-      "seat": 16,
-      "row": 3,
-      "id": 29
-    },
-    {
-      "orderId": 18,
-      "seat": 17,
-      "row": 3,
-      "id": 30
-    },
-    {
-      "orderId": 18,
-      "seat": 18,
-      "row": 3,
-      "id": 31
-    },
-    {
-      "orderId": 19,
-      "seat": 0,
-      "row": 0,
-      "id": 32
-    },
-    {
-      "orderId": 19,
-      "seat": 1,
-      "row": 0,
-      "id": 33
-    },
-    {
-      "orderId": 20,
-      "seat": 9,
-      "row": 12,
-      "id": 34
-    },
-    {
-      "orderId": 20,
-      "seat": 10,
-      "row": 12,
-      "id": 35
-    },
-    {
       "orderId": 21,
       "seat": 17,
       "row": 1,
@@ -321,6 +392,114 @@
       "seat": 19,
       "row": 1,
       "id": 38
+    },
+    {
+      "orderId": 22,
+      "seat": 12,
+      "row": 0,
+      "id": 39
+    },
+    {
+      "orderId": 22,
+      "seat": 13,
+      "row": 0,
+      "id": 40
+    },
+    {
+      "orderId": 22,
+      "seat": 14,
+      "row": 0,
+      "id": 41
+    },
+    {
+      "orderId": 22,
+      "seat": 15,
+      "row": 0,
+      "id": 42
+    },
+    {
+      "orderId": 23,
+      "seat": 3,
+      "row": 0,
+      "id": 43
+    },
+    {
+      "orderId": 23,
+      "seat": 4,
+      "row": 0,
+      "id": 44
+    },
+    {
+      "orderId": 24,
+      "seat": 5,
+      "row": 0,
+      "id": 45
+    },
+    {
+      "orderId": 24,
+      "seat": 6,
+      "row": 0,
+      "id": 46
+    },
+    {
+      "orderId": 25,
+      "seat": 6,
+      "row": 0,
+      "id": 47
+    },
+    {
+      "orderId": 25,
+      "seat": 7,
+      "row": 0,
+      "id": 48
+    },
+    {
+      "orderId": 26,
+      "seat": 15,
+      "row": 0,
+      "id": 49
+    },
+    {
+      "orderId": 26,
+      "seat": 16,
+      "row": 0,
+      "id": 50
+    },
+    {
+      "orderId": 26,
+      "seat": 17,
+      "row": 0,
+      "id": 51
+    },
+    {
+      "orderId": 26,
+      "seat": 18,
+      "row": 0,
+      "id": 52
+    },
+    {
+      "orderId": 27,
+      "seat": 5,
+      "row": 0,
+      "id": 53
+    },
+    {
+      "orderId": 27,
+      "seat": 4,
+      "row": 0,
+      "id": 54
+    },
+    {
+      "orderId": 27,
+      "seat": 3,
+      "row": 0,
+      "id": 55
+    },
+    {
+      "orderId": 27,
+      "seat": 2,
+      "row": 0,
+      "id": 56
     }
   ],
   "movies": [
@@ -328,7 +507,10 @@
       "title": "Jumanji: The Next Level",
       "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157422945871583_287x421.jpg",
       "sinopsis": "Dwayne Johnson, Karen Gillan, Jack Black dan Kevin Hart kembali ke Jumanji, keempatnya harus menyelamatkan salah satu teman mereka. Namun permainan telah berubah. Para pemain kini harus lebih berani melintasi rintangan ekstrem dan kembali dengan selamat dari permainan paling berbahaya di dunia.",
-      "jadwal": [],
+      "jadwal": [
+        16,
+        18
+      ],
       "sutradara": "Jake Kasdan",
       "durasi": "121",
       "studioId": "1",
@@ -459,391 +641,6 @@
       "trailer": "https://www.youtube.com/embed/zyYgDtY2AMY",
       "studioId": "2",
       "produksi": "Bullet Films, Mandarin Motion Pictures, Shanghai B"
-    }
-  ],
-  "transactions": [
-    {
-      "tanggal": "17/12/2019",
-      "totalharga": 200000,
-      "jumlahnotif": 3,
-      "bayar": true,
-      "item": [
-        {
-          "userId": 3,
-          "movieId": 3,
-          "totalharga": 50000,
-          "jadwal": 12,
-          "bayar": false,
-          "id": 21,
-          "movie": {
-            "id": 3,
-            "title": "Frozen II",
-            "sutradara": "Chris Buck, Jennifer Lee",
-            "durasi": 103,
-            "jadwal": [
-              12,
-              14,
-              16,
-              18
-            ],
-            "sinopsis": "Anna, Elsa, Kristoff, Olaf dan Sven pergi meninggalkan Arendelle untuk melakukan perjalanan ke sebuah tempat asing dan penuh keajaiban. Mereka berangkat untuk menemukan asal usul kekuatan Elsa dan juga untuk menyelamatkan kerajaan mereka.",
-            "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157250534676979_287x421.jpg",
-            "genre": "Animasi",
-            "trailer": "https://www.youtube.com/embed/bwzLiQZDw2I",
-            "studioId": "3",
-            "produksi": "Walt Disney Pictures"
-          },
-          "qty": [
-            {
-              "orderId": 21,
-              "seat": 15,
-              "row": 0,
-              "id": 36
-            },
-            {
-              "orderId": 21,
-              "seat": 16,
-              "row": 0,
-              "id": 37
-            }
-          ]
-        },
-        {
-          "userId": 3,
-          "movieId": 5,
-          "totalharga": 100000,
-          "jadwal": 12,
-          "bayar": false,
-          "id": 22,
-          "movie": {
-            "id": 5,
-            "title": "Star Wars: The Rise of Skywalker",
-            "sutradara": "J.J. Abrams",
-            "durasi": 126,
-            "jadwal": [
-              12,
-              14,
-              16,
-              20,
-              22
-            ],
-            "sinopsis": "Resistance yang selamat sekali lagi akan menghadapi First Order dalam sebuah saga final yang akan menentukan nasib mereka.",
-            "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157416306567553_287x421.jpg",
-            "genre": "Action, Adventure, Fantasy",
-            "trailer": "https://www.youtube.com/embed/8Qn_spdM5Zg",
-            "studioId": "2",
-            "produksi": "Walt Disney Pictures"
-          },
-          "qty": [
-            {
-              "orderId": 22,
-              "seat": 10,
-              "row": 1,
-              "id": 38
-            },
-            {
-              "orderId": 22,
-              "seat": 11,
-              "row": 1,
-              "id": 39
-            },
-            {
-              "orderId": 22,
-              "seat": 12,
-              "row": 1,
-              "id": 40
-            },
-            {
-              "orderId": 22,
-              "seat": 13,
-              "row": 1,
-              "id": 41
-            }
-          ]
-        },
-        {
-          "userId": 3,
-          "movieId": 3,
-          "totalharga": 50000,
-          "jadwal": 12,
-          "bayar": false,
-          "id": 23,
-          "movie": {
-            "id": 3,
-            "title": "Frozen II",
-            "sutradara": "Chris Buck, Jennifer Lee",
-            "durasi": 103,
-            "jadwal": [
-              12,
-              14,
-              16,
-              18
-            ],
-            "sinopsis": "Anna, Elsa, Kristoff, Olaf dan Sven pergi meninggalkan Arendelle untuk melakukan perjalanan ke sebuah tempat asing dan penuh keajaiban. Mereka berangkat untuk menemukan asal usul kekuatan Elsa dan juga untuk menyelamatkan kerajaan mereka.",
-            "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157250534676979_287x421.jpg",
-            "genre": "Animasi",
-            "trailer": "https://www.youtube.com/embed/bwzLiQZDw2I",
-            "studioId": "3",
-            "produksi": "Walt Disney Pictures"
-          },
-          "qty": [
-            {
-              "orderId": 23,
-              "seat": 12,
-              "row": 0,
-              "id": 42
-            },
-            {
-              "orderId": 23,
-              "seat": 13,
-              "row": 0,
-              "id": 43
-            }
-          ]
-        }
-      ],
-      "id": 1
-    }
-  ],
-  "transactionsDetails": [
-    {
-      "tanggal": "18/12/2019",
-      "totalharga": 375000,
-      "jumlahnotif": 5,
-      "bayar": false,
-      "item": [
-        {
-          "userId": 6,
-          "movieId": 3,
-          "totalharga": 50000,
-          "jadwal": 12,
-          "bayar": false,
-          "id": 14,
-          "movie": {
-            "id": 3,
-            "title": "Frozen II",
-            "sutradara": "Chris Buck, Jennifer Lee",
-            "durasi": 103,
-            "jadwal": [
-              12,
-              14,
-              16,
-              18
-            ],
-            "sinopsis": "Anna, Elsa, Kristoff, Olaf dan Sven pergi meninggalkan Arendelle untuk melakukan perjalanan ke sebuah tempat asing dan penuh keajaiban. Mereka berangkat untuk menemukan asal usul kekuatan Elsa dan juga untuk menyelamatkan kerajaan mereka.",
-            "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157250534676979_287x421.jpg",
-            "genre": "Animasi",
-            "trailer": "https://www.youtube.com/embed/bwzLiQZDw2I",
-            "studioId": "3",
-            "produksi": "Walt Disney Pictures"
-          },
-          "qty": [
-            {
-              "orderId": 14,
-              "seat": 9,
-              "row": 0,
-              "id": 17
-            },
-            {
-              "orderId": 14,
-              "seat": 10,
-              "row": 0,
-              "id": 18
-            }
-          ]
-        },
-        {
-          "userId": 6,
-          "movieId": 3,
-          "totalharga": 75000,
-          "jadwal": 12,
-          "bayar": false,
-          "id": 15,
-          "movie": {
-            "id": 3,
-            "title": "Frozen II",
-            "sutradara": "Chris Buck, Jennifer Lee",
-            "durasi": 103,
-            "jadwal": [
-              12,
-              14,
-              16,
-              18
-            ],
-            "sinopsis": "Anna, Elsa, Kristoff, Olaf dan Sven pergi meninggalkan Arendelle untuk melakukan perjalanan ke sebuah tempat asing dan penuh keajaiban. Mereka berangkat untuk menemukan asal usul kekuatan Elsa dan juga untuk menyelamatkan kerajaan mereka.",
-            "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157250534676979_287x421.jpg",
-            "genre": "Animasi",
-            "trailer": "https://www.youtube.com/embed/bwzLiQZDw2I",
-            "studioId": "3",
-            "produksi": "Walt Disney Pictures"
-          },
-          "qty": [
-            {
-              "orderId": 15,
-              "seat": 17,
-              "row": 2,
-              "id": 19
-            },
-            {
-              "orderId": 15,
-              "seat": 18,
-              "row": 2,
-              "id": 20
-            },
-            {
-              "orderId": 15,
-              "seat": 19,
-              "row": 2,
-              "id": 21
-            }
-          ]
-        },
-        {
-          "userId": 6,
-          "movieId": 8,
-          "totalharga": 100000,
-          "jadwal": 12,
-          "bayar": false,
-          "id": 16,
-          "movie": {
-            "id": 8,
-            "title": "Ford v Ferrari",
-            "sutradara": "James Mangold",
-            "durasi": 152,
-            "jadwal": [
-              14,
-              16,
-              20,
-              22
-            ],
-            "sinopsis": "2 pemenang Academy Award, Matt Damon dan Christian Bale berperan di FORD v FERRARI, berdasarkan kisah nyata yang luar biasa dari Carroll Shelby (Damon), seorang perancang mobil visioner dari Amerika bersama Ken Miles (Bale), seorang pembalap Inggris yang tak kenal takut. Mereka bersama-sama berjuang menghadapi campur tangan perusahaan, hukum fisika, dan masalah pribadi mereka sendiri ketika membangun mobil balap revolusioner bagi Ford Motor Company untuk menantang mobil balap buatan Enzo Ferrari yang mendomniasi 24 Jam Le Mans di Perancis pada tahun 1966.",
-            "image": "https://media.21cineplex.com/webcontent/gallery/pictures/1572858859730_287x421.jpg",
-            "genre": "Action, Biography, Drama",
-            "trailer": "https://www.youtube.com/embed/zyYgDtY2AMY",
-            "studioId": "2",
-            "produksi": "Bullet Films, Mandarin Motion Pictures, Shanghai B"
-          },
-          "qty": [
-            {
-              "orderId": 16,
-              "seat": 9,
-              "row": 0,
-              "id": 22
-            },
-            {
-              "orderId": 16,
-              "seat": 11,
-              "row": 0,
-              "id": 23
-            },
-            {
-              "orderId": 16,
-              "seat": 12,
-              "row": 0,
-              "id": 24
-            },
-            {
-              "orderId": 16,
-              "seat": 10,
-              "row": 0,
-              "id": 25
-            }
-          ]
-        },
-        {
-          "userId": 6,
-          "movieId": 3,
-          "totalharga": 100000,
-          "jadwal": 12,
-          "bayar": false,
-          "id": 18,
-          "movie": {
-            "id": 3,
-            "title": "Frozen II",
-            "sutradara": "Chris Buck, Jennifer Lee",
-            "durasi": 103,
-            "jadwal": [
-              12,
-              14,
-              16,
-              18
-            ],
-            "sinopsis": "Anna, Elsa, Kristoff, Olaf dan Sven pergi meninggalkan Arendelle untuk melakukan perjalanan ke sebuah tempat asing dan penuh keajaiban. Mereka berangkat untuk menemukan asal usul kekuatan Elsa dan juga untuk menyelamatkan kerajaan mereka.",
-            "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157250534676979_287x421.jpg",
-            "genre": "Animasi",
-            "trailer": "https://www.youtube.com/embed/bwzLiQZDw2I",
-            "studioId": "3",
-            "produksi": "Walt Disney Pictures"
-          },
-          "qty": [
-            {
-              "orderId": 18,
-              "seat": 15,
-              "row": 3,
-              "id": 28
-            },
-            {
-              "orderId": 18,
-              "seat": 16,
-              "row": 3,
-              "id": 29
-            },
-            {
-              "orderId": 18,
-              "seat": 17,
-              "row": 3,
-              "id": 30
-            },
-            {
-              "orderId": 18,
-              "seat": 18,
-              "row": 3,
-              "id": 31
-            }
-          ]
-        },
-        {
-          "userId": 6,
-          "movieId": 6,
-          "totalharga": 50000,
-          "jadwal": 12,
-          "bayar": false,
-          "id": 19,
-          "movie": {
-            "id": 6,
-            "title": "Cats",
-            "sutradara": "Tom Hooper",
-            "durasi": 98,
-            "jadwal": [
-              12,
-              14,
-              16,
-              20
-            ],
-            "sinopsis": "Sebuah adaptasi drama musikal yang kisahnya terinspirasi dari puisi Old Possums Book of Practical Cats karya T.S. Elliot. Bercerita tentang suku kucing bernama Jellicle yang pada suatu malam, mereka memutuskan untuk mengubah takdir hidupnya menjadi lebih baik dengan melewati Heaviside Layer.",
-            "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157542998785544_287x421.jpg",
-            "genre": "Comedy, Drama, Family",
-            "trailer": "https://www.youtube.com/embed/yleb8iqI2cY",
-            "studioId": "3",
-            "produksi": "Universal Pictures"
-          },
-          "qty": [
-            {
-              "orderId": 19,
-              "seat": 0,
-              "row": 0,
-              "id": 32
-            },
-            {
-              "orderId": 19,
-              "seat": 1,
-              "row": 0,
-              "id": 33
-            }
-          ]
-        }
-      ],
-      "id": 1
     }
   ]
 }

@@ -5,6 +5,7 @@ import { url } from '../support/ApiURL';
 import numeral from 'numeral'
 import { Redirect} from 'react-router-dom'
 import { Modal,ModalHeader,ModalBody,ModalFooter } from 'reactstrap'
+import NotFound from './page404'
 
 class Belitiket extends Component {
     state = { 
@@ -20,7 +21,9 @@ class Belitiket extends Component {
      }
 
      componentDidMount(){
-        this.onJamchange()
+         if(this.props.username!=='admin' && this.props.location.state){
+             this.onJamchange()
+         }
     }
     
     onJamchange=()=>{
@@ -215,7 +218,7 @@ class Belitiket extends Component {
     }
 
     render() {
-        if(this.props.location.state && this.props.AuthLog){
+        if(this.props.location.state && this.props.AuthLog && this.props.username!=='admin'){
             if(this.state.redirecthome){
                 return <Redirect to={`/`} /> 
             }
@@ -257,16 +260,7 @@ class Belitiket extends Component {
         }
         else{
             return ( 
-                <div class="site htmlpage404">
-                    {/* <div class="sketch">
-                        <div class="bee-sketch red"></div>
-                        <div class="bee-sketch blue"></div>
-                    </div> */}
-
-                    <h1 className='h1page404'>404:
-                    <small h1smallpage404>Players Not Found</small></h1>
-                    ini 404
-                </div>
+                <NotFound />
              );
         }
     }
@@ -274,6 +268,7 @@ class Belitiket extends Component {
 
 const MapstateToprops=(state)=>{
     return{
+        username:state.Auth.username,
         AuthLog: state.Auth.login,
         UserId: state.Auth.id
     }

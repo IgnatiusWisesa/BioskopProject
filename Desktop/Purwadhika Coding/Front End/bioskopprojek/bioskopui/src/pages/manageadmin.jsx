@@ -281,7 +281,7 @@ class ManageAdmin extends Component {
     render() {
         // const {datafilm, indexEdit} = this.state
         // console.log(this.props.Auth.username)
-    if(this.props.Auth.login && this.props.Auth.username==='admin'){
+    if(this.props.Auth.login && this.props.Auth.username==='admin' && this.state.datafilm!==0){
         if(this.state.datafilm.length === 0){
             console.log('Ini loading!')
             return(
@@ -293,10 +293,10 @@ class ManageAdmin extends Component {
                 )
             }
         else{
-            console.log('index delete: '+this.state.indexDelete)
-            console.log('index edit: '+this.state.indexEdit)
-            console.log(this.state.datafilm[0].title)
-            let indextampilDelete = this.state.indexDelete-1
+            // console.log('index delete: '+this.state.indexDelete)
+            // console.log('index edit: '+this.state.indexEdit)
+            // console.log(this.state.datafilm[0].title)
+            // let indextampilDelete = this.state.indexDelete-1
             // console.log(this.state.datafilm[this.state.indexDelete])
         return(
             <div>
@@ -312,7 +312,7 @@ class ManageAdmin extends Component {
 
                 ):(  */}
 
-
+                
                     <Modal isOpen={this.state.editModal} toggle={()=>this.setState({editModal:false})}>
                             <ModalHeader style={{backgroundColor:'#b21f66'}}>
                                 Edit Movie: {this.state.datafilm[this.state.indexEdit].title}

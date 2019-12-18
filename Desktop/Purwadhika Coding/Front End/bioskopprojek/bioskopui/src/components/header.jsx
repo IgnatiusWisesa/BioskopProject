@@ -62,19 +62,28 @@ const Header = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
+            
+
+
             {props.username!=='admin'?(
               <NavItem class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <NavItem>
                   <Link to="/" style={{color:'black'}} className='komponen'>Back To Home</Link>
                 </NavItem>
-                <NavItem>
-                  <Link to="/register" style={{color:'black'}} className='komponen'>Register</Link>
-                  &nbsp;&nbsp;
-                  <Link to="/login" style={{color:'black'}} className='komponen'>Login</Link>
-                </NavItem>
-                <NavItem>
-                  <Link to="/history" style={{color:'black'}} className='komponen'>History</Link>
-                </NavItem>
+                {
+                  props.login?(
+                  <NavItem>
+                    <Link to="/history" style={{color:'black'}} className='komponen'>History</Link>
+                  </NavItem>
+                  ):(
+                    <NavItem>
+                      <Link to="/register" style={{color:'black'}} className='komponen'>Register</Link>
+                      &nbsp;&nbsp;
+                      <Link to="/login" style={{color:'black'}} className='komponen'>Login</Link>
+                    </NavItem>
+                  )
+                }
+                
               </NavItem>
             ):
             (
@@ -88,23 +97,6 @@ const Header = (props) => {
               </NavItem>
             )
             }
-            {/* <NavItem>
-              <Link to="/" style={{color:'black'}} className='komponen'>Back To Home</Link>
-            </NavItem>
-            <NavItem class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <Link to="/register" style={{color:'black'}} className='komponen'>Register</Link>
-              &nbsp;&nbsp;
-              <Link to="/login" style={{color:'black'}} className='komponen'>Login</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/history" style={{color:'black'}} className='komponen'>History</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/manageadmin" style={{color:'black'}} className='komponen'>Admin</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/studio" style={{color:'black'}} className='komponen'>Manage Studio</Link>
-            </NavItem> */}
           </Nav>
         </Collapse>
       </Navbar>
@@ -115,6 +107,7 @@ const Header = (props) => {
 const MapstateToprops=(state)=>{
   return{
       username:state.Auth.username,
+      login: state.Auth.login,
       Notif: state.Notif
   }
 }
