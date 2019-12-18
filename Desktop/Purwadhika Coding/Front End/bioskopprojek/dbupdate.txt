@@ -1,0 +1,344 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "dobleh",
+      "password": "qwe"
+    },
+    {
+      "id": 3,
+      "username": "jamal",
+      "password": "1234"
+    },
+    {
+      "username": "adi",
+      "password": "456",
+      "id": 4
+    },
+    {
+      "username": "tia",
+      "password": "1",
+      "id": 5
+    }
+  ],
+  "studios": [
+    {
+      "id": 1,
+      "nama": "Studio 1",
+      "jumlahKursi": 260
+    },
+    {
+      "id": 2,
+      "nama": "Studio 2",
+      "jumlahKursi": 240
+    },
+    {
+      "id": 3,
+      "nama": "Studio 3",
+      "jumlahKursi": 200
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "movieId": 3,
+      "studioId": 3,
+      "jadwal": 12,
+      "totalHarga": 50000
+    },
+    {
+      "userId": 1,
+      "movieId": 3,
+      "studioId": 2,
+      "jadwal": 12,
+      "totalHarga": 70000,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "movieId": 3,
+      "studioId": 2,
+      "jadwal": 16,
+      "totalHarga": 105000,
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "totalharga": 75000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "totalharga": 75000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "totalharga": 75000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 11
+    }
+  ],
+  "ordersDetails": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "row": 2,
+      "seat": 4
+    },
+    {
+      "id": 2,
+      "orderId": 1,
+      "row": 2,
+      "seat": 5
+    },
+    {
+      "id": 3,
+      "orderId": 2,
+      "row": 2,
+      "seat": 6
+    },
+    {
+      "id": 4,
+      "orderId": 2,
+      "row": 2,
+      "seat": 7
+    },
+    {
+      "id": 5,
+      "orderId": 3,
+      "row": 2,
+      "seat": 8
+    },
+    {
+      "id": 6,
+      "orderId": 3,
+      "row": 2,
+      "seat": 9
+    },
+    {
+      "orderId": 9,
+      "seat": 9,
+      "row": 0,
+      "id": 7
+    },
+    {
+      "orderId": 9,
+      "seat": 10,
+      "row": 0,
+      "id": 8
+    },
+    {
+      "orderId": 10,
+      "seat": 9,
+      "row": 0,
+      "id": 9
+    },
+    {
+      "orderId": 10,
+      "seat": 10,
+      "row": 0,
+      "id": 10
+    },
+    {
+      "orderId": 11,
+      "seat": 9,
+      "row": 0,
+      "id": 11
+    },
+    {
+      "orderId": 11,
+      "seat": 10,
+      "row": 0,
+      "id": 12
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Jumanji: The Next Level",
+      "sutradara": "Jake Kasdan",
+      "durasi": 121,
+      "jadwal": [
+        12,
+        16
+      ],
+      "sinopsis": "Dwayne Johnson, Karen Gillan, Jack Black dan Kevin Hart kembali ke Jumanji, keempatnya harus menyelamatkan salah satu teman mereka. Namun permainan telah berubah. Para pemain kini harus lebih berani melintasi rintangan ekstrem dan kembali dengan selamat dari permainan paling berbahaya di dunia.",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157422945871583_287x421.jpg",
+      "genre": "Action",
+      "trailer": "https://www.youtube.com/embed/rBxcF-r9Ibs",
+      "studioId": "1",
+      "produksi": "Columbia Pictures"
+    },
+    {
+      "id": 2,
+      "title": "The Good Liar",
+      "sutradara": "Bill Condon",
+      "durasi": 108,
+      "jadwal": [
+        16,
+        18
+      ],
+      "sinopsis": "Berawal dari perkenalan di situs kencan daring, Roy (Ian McKellen) seorang penipu ulung berhasil mendekati Betty, janda kaya raya dengan harta melimpah. Tapi hubungan keduanya mendapat respon keras dari keluarga Betty, yang menduga Roy punya niat jahat. Saat memulai misinya ternyata Roy justru jatuh cinta kepada Betty. Roy yang awalnya bisa menjalankan misinya dengan mudah, justru harus melalui melewati jalan yang bisa membahayakan dirinya.",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157423720057093_287x421.jpg",
+      "genre": "Drama",
+      "trailer": "https://www.youtube.com/embed/U2xDIe01fFY",
+      "studioId": "2",
+      "produksi": "Warner Bros. Pictures"
+    },
+    {
+      "id": 3,
+      "title": "Frozen II",
+      "sutradara": "Chris Buck, Jennifer Lee",
+      "durasi": 103,
+      "jadwal": [
+        12,
+        14,
+        16,
+        18
+      ],
+      "sinopsis": "Anna, Elsa, Kristoff, Olaf dan Sven pergi meninggalkan Arendelle untuk melakukan perjalanan ke sebuah tempat asing dan penuh keajaiban. Mereka berangkat untuk menemukan asal usul kekuatan Elsa dan juga untuk menyelamatkan kerajaan mereka.",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157250534676979_287x421.jpg",
+      "genre": "Animasi",
+      "trailer": "https://www.youtube.com/embed/bwzLiQZDw2I",
+      "studioId": "3",
+      "produksi": "Walt Disney Pictures"
+    },
+    {
+      "id": 4,
+      "title": "Last Christmas",
+      "sutradara": "Paul Feig",
+      "durasi": 103,
+      "jadwal": [
+        18,
+        20,
+        22
+      ],
+      "sinopsis": "Kate (Emilia Clarke) adalah seorang wanita muda yang mengambil keputusan buruk. Kencan terakhirnya berakhir dengan bencana? Saat diterima di sebuah toko pernak-pernik natal dan berperan sebagai Peri ia bertemu dengan Tom (Henry Golding), Hidupnya berubah lagi. Bagi Kate, sepertinya terlalu bagus untuk menjadi kenyataan.",
+      "image": "https://media.baselineresearch.com/images/1920353/1920353_medium.jpg",
+      "genre": "Comedy, Drama, Romance",
+      "trailer": "https://www.youtube.com/embed/z9CEIcmWmtA",
+      "studioId": "1",
+      "produksi": "Universal Pictures"
+    },
+    {
+      "id": 5,
+      "title": "Star Wars: The Rise of Skywalker",
+      "sutradara": "J.J. Abrams",
+      "durasi": 126,
+      "jadwal": [
+        12,
+        14,
+        16,
+        20,
+        22
+      ],
+      "sinopsis": "Resistance yang selamat sekali lagi akan menghadapi First Order dalam sebuah saga final yang akan menentukan nasib mereka.",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157416306567553_287x421.jpg",
+      "genre": "Action, Adventure, Fantasy",
+      "trailer": "https://www.youtube.com/embed/8Qn_spdM5Zg",
+      "studioId": "2",
+      "produksi": "Walt Disney Pictures"
+    },
+    {
+      "id": 6,
+      "title": "Cats",
+      "sutradara": "Tom Hooper",
+      "durasi": 98,
+      "jadwal": [
+        12,
+        14,
+        16,
+        20
+      ],
+      "sinopsis": "Sebuah adaptasi drama musikal yang kisahnya terinspirasi dari puisi Old Possums Book of Practical Cats karya T.S. Elliot. Bercerita tentang suku kucing bernama Jellicle yang pada suatu malam, mereka memutuskan untuk mengubah takdir hidupnya menjadi lebih baik dengan melewati Heaviside Layer.",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157542998785544_287x421.jpg",
+      "genre": "Comedy, Drama, Family",
+      "trailer": "https://www.youtube.com/embed/yleb8iqI2cY",
+      "studioId": "3",
+      "produksi": "Universal Pictures"
+    },
+    {
+      "id": 7,
+      "title": "Ip Man 4: The Finale",
+      "sutradara": "Wilson Yip",
+      "durasi": 136,
+      "jadwal": [
+        12,
+        14,
+        16,
+        20
+      ],
+      "sinopsis": "Ip Man (Donnie Yen) datang ke Amerika Serikat untuk membantu muridnya, Bruce Lee (Kwok-Kwan Chan) yang mendapat diskriminasi rasial karena membuka sekolah seni bela diri Wing Chun di negeri Paman Sam tersebut.",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157492651970791_287x421.jpg",
+      "genre": "Action, Biography, Drama",
+      "trailer": "https://www.youtube.com/embed/otI4pyQjb8w",
+      "studioId": "1",
+      "produksi": "Bullet Films, Mandarin Motion Pictures, Shanghai B"
+    },
+    {
+      "id": 8,
+      "title": "Ford v Ferrari",
+      "sutradara": "James Mangold",
+      "durasi": 152,
+      "jadwal": [
+        14,
+        16,
+        20,
+        22
+      ],
+      "sinopsis": "2 pemenang Academy Award, Matt Damon dan Christian Bale berperan di FORD v FERRARI, berdasarkan kisah nyata yang luar biasa dari Carroll Shelby (Damon), seorang perancang mobil visioner dari Amerika bersama Ken Miles (Bale), seorang pembalap Inggris yang tak kenal takut. Mereka bersama-sama berjuang menghadapi campur tangan perusahaan, hukum fisika, dan masalah pribadi mereka sendiri ketika membangun mobil balap revolusioner bagi Ford Motor Company untuk menantang mobil balap buatan Enzo Ferrari yang mendomniasi 24 Jam Le Mans di Perancis pada tahun 1966.",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/1572858859730_287x421.jpg",
+      "genre": "Action, Biography, Drama",
+      "trailer": "https://www.youtube.com/embed/zyYgDtY2AMY",
+      "studioId": "2",
+      "produksi": "Bullet Films, Mandarin Motion Pictures, Shanghai B"
+    }
+  ]
+}

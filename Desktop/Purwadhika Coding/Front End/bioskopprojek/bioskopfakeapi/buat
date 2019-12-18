@@ -1,0 +1,21 @@
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://localhost:2000/users
+  http://localhost:2000/movies
+
+  Home
+  http://localhost:2000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [32m200 [0m3.796 ms - 863[0m
+[0mGET /__rules [33m404 [0m4.804 ms - 2[0m
+[0mGET /users [32m200 [0m9.092 ms - 211[0m
+[0mGET /movies [32m200 [0m8.481 ms - 571[0m
+[0mGET /movies [36m304 [0m9.840 ms - -[0m
+
+json-server -p 2000 db.json --

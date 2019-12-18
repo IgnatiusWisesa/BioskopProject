@@ -1,0 +1,7 @@
+PR
+- buat readmore
+- buat option genre
+- update & delete
+- styling
+- pas click film ada detail film
+- log in dan sign in

@@ -1,0 +1,4 @@
+-proteksi admin
+-cart --> yg nambah quantity bukan order kalo film dan jam sama  --> di cart ada angka
+-history beli tiket
+-bayar

@@ -1,0 +1,321 @@
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* div{
+  border: yellow 1px solid;
+} */
+.kartu{
+  border-radius: 10px;
+  overflow: hidden;
+}
+.gambar{
+  transition: 700ms;
+}
+.gambar:hover{
+  transform: scale(1.1);
+  border-radius: 10px;
+
+}
+.gambaar1{
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(900deg);
+  }
+  to {
+    transform: rotate(60deg);
+  }
+}
+
+.trailer{
+  background-color: transparent;
+  height: 500px;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	opacity: 1.8;
+	order: 1;
+} 
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+h1 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 3em;
+	text-align: center;
+	opacity: 1.8;
+	order: 1;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+.komponen{
+	font-family: 'Lilita One', cursive;
+	font-size: 1em;
+	text-align: center;
+	opacity: 1.8;
+	order: 1;
+}
+/* 
+=================================404====================================================================================================================== */
+/* @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+.htmlpage404 {
+	height: 100%;
+}
+
+.bodypage404 {
+	min-height: 100%;
+}
+
+/* body {
+	display: flex;
+} */
+/* 
+.h1page404 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 3em;
+	text-align: center;
+	opacity: .8;
+	order: 1;
+}
+
+.h1smallpage404 {
+	display: block;
+}
+
+.site {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+  align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+
+.sketch {
+	position: relative;
+	height: 400px;
+	min-width: 400px;
+	margin: 0;
+	overflow: visible;
+	order: 2;
+	
+}
+
+.bee-sketch {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.red {
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-1.png) no-repeat center center;
+	opacity: 1;
+	animation: red 3s linear infinite, opacityRed 5s linear alternate infinite;
+}
+
+.blue {
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-1.png) no-repeat center center;
+	opacity: 0;
+	animation: blue 3s linear infinite, opacityBlue 5s linear alternate infinite;
+}
+
+
+@media only screen and (min-width: 780px) {
+  .site {
+		flex-direction: row;
+		padding: 1em 3em 1em 0em;
+	}
+	
+	h1 {
+		text-align: center;
+		order: 2;
+		padding-bottom: 2em;
+		padding-left: 2em;
+
+	}
+	
+	.sketch {
+		order: 1;
+	}
+}
+
+
+@keyframes blue {
+	0% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-1.png) 
+  }
+	9.09% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-2.png) 
+  }
+	27.27% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-3.png) 
+  }
+	36.36% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-4.png) 
+  }
+	45.45% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-5.png) 
+  }
+	54.54% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-6.png) 
+  }
+	63.63% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-7.png) 
+  }
+	72.72% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-8.png) 
+  }
+	81.81% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-9.png) 
+  }
+	100% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/blue-1.png) 
+  }
+}
+
+@keyframes red {
+	0% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-1.png) 
+  }
+	9.09% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-2.png) 
+  }
+	27.27% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-3.png) 
+  }
+	36.36% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-4.png) 
+  }
+	45.45% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-5.png) 
+  }
+	54.54% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-6.png) 
+  }
+	63.63% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-7.png) 
+  }
+	72.72% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-8.png) 
+  }
+	81.81% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-9.png) 
+  }
+	100% {
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/198554/red-1.png) 
+  }
+}
+
+@keyframes opacityBlue {
+	from {
+		opacity: 0
+	}
+	25% {
+		opacity: 0
+	}
+	75% {
+		opacity: 1
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes opacityRed {
+	from {
+		opacity: 1
+	}
+	25% {
+		opacity: 1
+	}
+	75% {
+		opacity: .3
+	}
+	to {
+		opacity: .3
+	}
+} */
+
+/* ================================================belitiket============================================= */
+
+.btn-order{
+	width: 43px;
+	height: 40px;
+	background-color:whitesmoke;
+	color: #5b0008;
+	border: 1px solid #5b0008;
+	transition: 200ms;
+  }
+  
+  .btn-order:focus{
+	outline-color: #5b0008;
+  }
+  
+  .btn-order:hover{
+	font-weight: bolder;
+  }
+  
+  .btn-disble{
+	width: 43px;
+	height: 40px;
+	background-color:whitesmoke;
+	color: #5b0008;
+	border: 1px solid #5b0008;
+  }
+  .btn-pilih{
+	color: whitesmoke;
+	background-color: #5b0008d7;
+	border: 1px solid whitesmoke;
+	width: 43px;
+	height: 40px;
+  }
