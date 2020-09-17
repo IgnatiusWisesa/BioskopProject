@@ -1,0 +1,31 @@
+- total saldo
+- total produk
+- total penjualan
+- total pendapatan
+
+- crud brand
+
+const stok = [
+  {
+    'id' : 1,
+    'size' : 29,
+    'foto' : ['foto1', 'foto2']
+    'stok_color' : [
+      {
+        
+	'color' : 'red',
+        'stok' : 20
+      },
+      {
+        'color' : 'black',
+        'stok' : 10
+      }
+    ]
+  },
+]
+
+
+
+- slug
+- params pake slug --> detail produk
+
